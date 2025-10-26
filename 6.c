@@ -31,9 +31,8 @@ int main(){
 		}
 	}
 	
-	printf("\n--- Seating Chart Verification ---\n");
 	
-	// Check all elements off the main diagonal (i != j)
+	
 	for(i=0; i<SIZE; i++){
 		for(j=0; j<SIZE; j++){
 			if(i == j){
@@ -77,3 +76,4 @@ int main(){
 	
 	return 0;
 }
+
